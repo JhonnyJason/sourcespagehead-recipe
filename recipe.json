@@ -1,0 +1,23 @@
+{
+    "staticBase": [
+        ["merge"],
+        {
+            "merge": ["https://gitlab.com/lenny09918050/lenny-unlicense"]
+        }
+    ],
+    "ressources": [
+        ["directory"],
+        ["merge"],
+        {
+            "merge": ["https://gitlab.com/lenny09918050/cliressources-template"]
+        }
+    ],
+    "source": [
+        ["directory"],
+        ["merge", "create"],
+        {
+            "create": ["void"],
+            "merge": ["https://gitlab.com/lenny09918050/clisource-template"]
+        }
+    ]
+}
